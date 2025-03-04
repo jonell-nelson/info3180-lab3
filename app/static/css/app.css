@@ -1,3 +1,67 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body 
+{
+    font-family: "Playfair Display", sans-serif;
     padding-top: 5rem;
+}
+
+.flashes
+{
+    text-decoration: none;
+    text-align: center;
+    background-color: #f0e10d;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    margin-top: -25px;
+}
+
+.navbar
+{
+    background-color: #0dacf0;
+}
+
+.title-description
+{
+    font-size: 9.6px;
+}
+
+.name-title, .subject-title, .message-title, .email-title
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.required-text
+{
+    color: rgb(160, 16, 16);
+}
+
+.naming, .emailing, .subjectof, .messaging
+{
+    margin: 10px 0px 20px 0px;    
+}
+
+.name-description, .subject-description, .message-description, .email-description
+{
+    font-size: 9.6px;
+}
+
+#btn
+{
+    background-color: #FFD700; /* Changed to gold */
+    color: #000000; /* Changed to black */
+    font-size: 10.6px;
+    border-radius: 10px;
+    border: transparent;
+    padding: 10px 25px 10px 25px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#btn:hover
+{
+    background-color: #C0C0C0; /* Changed to a lighter grey for hover */
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
